@@ -1,5 +1,6 @@
 import React from 'react';
-import { Stethoscope, Zap, Dumbbell, Waves, Target, Activity } from 'lucide-react';
+import { Stethoscope, Zap, Dumbbell, Waves, Target, Activity, Contact } from 'lucide-react';
+import { Link } from 'react-router-dom'
 
 const Treatments = () => {
   const treatments = [
@@ -80,12 +81,14 @@ const Treatments = () => {
               <p className="text-gray-600 leading-relaxed">{treatment.description}</p>
               
               <div className="mt-6 pt-6 border-t border-gray-200">
+          
                 <button className="text-blue-600 hover:text-blue-700 font-medium flex items-center space-x-2 group">
-                  <span>Saiba mais</span>
-                  <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </button>
+                    <span>Saiba mais</span>
+                    <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </button>
+            
               </div>
             </div>
           ))}

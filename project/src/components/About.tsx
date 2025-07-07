@@ -65,8 +65,8 @@ const About = () => {
                 <div className="text-sm text-gray-600">Anos de Experiência</div>
               </div>
               <div className="text-center bg-white/60 backdrop-blur-sm rounded-2xl p-4 border border-blue-100/30">
-                <div className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-800">95%</div>
-                <div className="text-sm text-gray-600">Taxa de Sucesso</div>
+                <div className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-800">99%</div>
+                <div className="text-sm text-gray-600">Taxa de Satisfação</div>
               </div>
             </div>
           </div>
@@ -76,17 +76,17 @@ const About = () => {
             <div className="relative z-10">
               <div className="bg-white/60 backdrop-blur-sm rounded-3xl p-6 shadow-2xl border border-blue-100/30">
                 <img 
-                  src="https://images.pexels.com/photos/5473298/pexels-photo-5473298.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                  src="Gui.jpg" 
                   alt="Guilherme Segura - Fisioterapeuta" 
-                  className="w-full h-96 object-cover rounded-2xl"
+                  className="w-full h-full object-cover rounded-2xl"
                 />
               </div>
               
               <div className="absolute -bottom-6 -right-6 bg-gradient-to-br from-blue-600 to-blue-700 text-white p-6 rounded-3xl shadow-xl backdrop-blur-sm">
                 <div className="text-center">
                   <Users className="w-8 h-8 mx-auto mb-2" />
-                  <div className="text-2xl font-bold">500+</div>
-                  <div className="text-sm">Pacientes</div>
+                  <div className="text-2xl font-bold">100+</div>
+                  <div className="text-sm">Joelhos Reabilitados</div>
                 </div>
               </div>
             </div>

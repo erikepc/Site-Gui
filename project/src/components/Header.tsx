@@ -27,14 +27,14 @@ const Header = () => {
         ? 'bg-white/90 backdrop-blur-lg shadow-lg border-b border-blue-100/20' 
         : 'bg-white/80 backdrop-blur-md'
     }`}>
-      <div className="container mx-auto px-4 py-3">
+      <div className="container mx-auto px-8 py-3">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <img 
-              src="/485177390_1072000108069685_4782085792638731522_n.png" 
+              src="/logo mini.jpg" 
               alt="Guilherme Segura - Fisioterapia Especializada em Joelho" 
-              className="h-12 w-auto transition-transform duration-300 hover:scale-105"
+              className="h-20 w-auto transition-transform duration-300 hover:scale-105"
             />
           </div>
 

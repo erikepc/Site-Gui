@@ -36,15 +36,15 @@ const Hero = () => {
               </div>
               
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                Especialista em
+                GUILHERME SEGURA
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-800 block">
-                  Joelho
+                  Especialista em Joelho
                 </span>
               </h1>
               
               <p className="text-xl text-gray-600 leading-relaxed">
                 Fisioterapia especializada para recuperação completa e prevenção de lesões no joelho. 
-                Tratamentos personalizados com técnicas avançadas e baseadas em evidências científicas.
+                Tratamentos personalizados com técnicas avançadas e baseados na métodologia Felipe Fumê.
               </p>
             </div>
 
@@ -68,8 +68,8 @@ const Hero = () => {
                 <div className="flex items-center justify-center w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full mx-auto mb-3">
                   <Clock className="w-6 h-6 text-white" />
                 </div>
-                <div className="text-2xl font-bold text-gray-900">95%</div>
-                <div className="text-sm text-gray-600">Taxa de Sucesso</div>
+                <div className="text-2xl font-bold text-gray-900">99%</div>
+                <div className="text-sm text-gray-600">Taxa de Satisfação</div>
               </div>
             </div>
 
@@ -95,7 +95,7 @@ const Hero = () => {
           <div className="relative">
             <div className="relative z-10 bg-white/80 backdrop-blur-sm rounded-3xl shadow-2xl p-8 transform hover:scale-105 transition-all duration-500 border border-blue-100/30">
               <img 
-                src="https://images.pexels.com/photos/7659564/pexels-photo-7659564.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                src="/Logo 1.jpg" 
                 alt="Fisioterapeuta tratando joelho" 
                 className="w-full h-80 object-cover rounded-2xl"
               />
