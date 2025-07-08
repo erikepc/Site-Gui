@@ -54,7 +54,7 @@ const Hero = () => {
                 <div className="flex items-center justify-center w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full mx-auto mb-3">
                   <Users className="w-6 h-6 text-white" />
                 </div>
-                <div className="text-2xl font-bold text-gray-900">500+</div>
+                <div className="text-2xl font-bold text-gray-900">100+</div>
                 <div className="text-sm text-gray-600">Pacientes Atendidos</div>
               </div>
               <div className="text-center bg-white/60 backdrop-blur-sm rounded-2xl p-4 border border-blue-100/30">

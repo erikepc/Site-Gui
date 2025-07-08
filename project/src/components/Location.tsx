@@ -14,7 +14,7 @@ const Location = () => {
             Nossa <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-800">Localização</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Estamos estrategicamente localizados em Barra bonita-SP para melhor atendê-lo.
+            Estamos estrategicamente localizados em Igaraçu do Tietê - SP para melhor atendê-lo.
           </p>
         </div>
 

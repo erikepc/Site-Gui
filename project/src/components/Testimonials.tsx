@@ -14,13 +14,13 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: "Maria Silva",
-      age: 45,
-      condition: "Condromalácia Patelar",
+      name: "Erike Cordeiro",
+      age: 26,
+      condition: "Rompimento do LCA",
       rating: 5,
-      message: "Após 3 meses de tratamento com o Dr. Guilherme, consegui voltar a correr sem dor. O tratamento foi excepcional e muito profissional.",
-      image: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150",
-      date: "Dezembro 2023"
+      message: "Após 2 Semanas de tratamento com o Dr. Guilherme, consegui voltar a correr sem dor. O tratamento foi excepcional e muito profissional.",
+      image: "/erike.jpeg",
+      date: "Junho 2025"
     },
     {
       id: 2,

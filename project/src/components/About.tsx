@@ -20,13 +20,13 @@ const About = () => {
               
               <p className="text-lg text-gray-600 leading-relaxed">
                 Fisioterapeuta especializado em reabilitação de joelho com mais de 8 anos de experiência. 
-                Formado pela Universidade de São Paulo (USP) com especialização em Fisioterapia Ortopédica 
+                Formado pela Universidade Marechal Rondon (FMR) com especialização em Fisioterapia Ortopédica 
                 e Traumatológica.
               </p>
               
               <p className="text-gray-600 leading-relaxed">
                 Minha missão é proporcionar tratamentos personalizados e eficazes, utilizando técnicas 
-                modernas e baseadas em evidências científicas para garantir a melhor recuperação possível 
+                modernas e baseadas no método Felipe Fumê para garantir a melhor recuperação possível 
                 dos meus pacientes.
               </p>
             </div>
@@ -37,7 +37,7 @@ const About = () => {
               <div className="space-y-3">
                 <div className="flex items-center space-x-3 p-3 bg-white/60 backdrop-blur-sm rounded-xl border border-blue-100/30">
                   <BookOpen className="w-5 h-5 text-blue-600" />
-                  <span className="text-gray-700">Graduação em Fisioterapia - USP</span>
+                  <span className="text-gray-700">Graduação em Fisioterapia - FMR</span>
                 </div>
                 <div className="flex items-center space-x-3 p-3 bg-white/60 backdrop-blur-sm rounded-xl border border-blue-100/30">
                   <Award className="w-5 h-5 text-blue-600" />
@@ -57,7 +57,7 @@ const About = () => {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6 pt-6">
               <div className="text-center bg-white/60 backdrop-blur-sm rounded-2xl p-4 border border-blue-100/30">
-                <div className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-800">500+</div>
+                <div className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-800">100+</div>
                 <div className="text-sm text-gray-600">Pacientes Tratados</div>
               </div>
               <div className="text-center bg-white/60 backdrop-blur-sm rounded-2xl p-4 border border-blue-100/30">

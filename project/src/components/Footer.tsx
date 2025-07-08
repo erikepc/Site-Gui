@@ -11,24 +11,37 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-6">
             <div className="flex items-center space-x-3">
-              <img 
-                src="/485177390_1072000108069685_4782085792638731522_n.png" 
-                alt="Guilherme Segura - Fisioterapia" 
+              <img
+                src="/485177390_1072000108069685_4782085792638731522_n.png"
+                alt="Guilherme Segura - Fisioterapia"
                 className="h-12 w-auto"
               />
             </div>
             <p className="text-gray-300 leading-relaxed">
-              Fisioterapia especializada em joelho com mais de 8 anos de experiência. 
+              Fisioterapia especializada em joelho com mais de 8 anos de experiência.
               Tratamentos personalizados para sua completa recuperação.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="w-10 h-10 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center hover:from-blue-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-110">
+              <a
+                href="https://www.facebook.com/GuilhermeSeguraFisioterapeuta"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center hover:from-blue-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-110"
+              >
                 <Facebook className="w-5 h-5" />
               </a>
-              <a href="#" className="w-10 h-10 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center hover:from-blue-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-110">
+              <a
+                href="https://www.instagram.com/fisioguisegura?igsh=MTU1MDE2ZWkwNTNyNg=="
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center hover:from-blue-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-110">
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="#" className="w-10 h-10 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center hover:from-blue-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-110">
+              <a
+                href="https://www.linkedin.com/in/guilherme-segura-701299106/?originalSubdomain=br"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center hover:from-blue-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-110">
                 <Linkedin className="w-5 h-5" />
               </a>
             </div>
@@ -39,7 +52,7 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-6">Links Rápidos</h3>
             <ul className="space-y-3">
               <li>
-                <button 
+                <button
                   onClick={() => document.getElementById('home')?.scrollIntoView({ behavior: 'smooth' })}
                   className="text-gray-300 hover:text-white transition-colors hover:translate-x-1 transform duration-300"
                 >
@@ -47,7 +60,7 @@ const Footer = () => {
                 </button>
               </li>
               <li>
-                <button 
+                <button
                   onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
                   className="text-gray-300 hover:text-white transition-colors hover:translate-x-1 transform duration-300"
                 >
@@ -55,7 +68,7 @@ const Footer = () => {
                 </button>
               </li>
               <li>
-                <button 
+                <button
                   onClick={() => document.getElementById('specialties')?.scrollIntoView({ behavior: 'smooth' })}
                   className="text-gray-300 hover:text-white transition-colors hover:translate-x-1 transform duration-300"
                 >
@@ -63,7 +76,7 @@ const Footer = () => {
                 </button>
               </li>
               <li>
-                <button 
+                <button
                   onClick={() => document.getElementById('treatments')?.scrollIntoView({ behavior: 'smooth' })}
                   className="text-gray-300 hover:text-white transition-colors hover:translate-x-1 transform duration-300"
                 >
@@ -71,7 +84,7 @@ const Footer = () => {
                 </button>
               </li>
               <li>
-                <button 
+                <button
                   onClick={() => document.getElementById('testimonials')?.scrollIntoView({ behavior: 'smooth' })}
                   className="text-gray-300 hover:text-white transition-colors hover:translate-x-1 transform duration-300"
                 >
@@ -79,7 +92,7 @@ const Footer = () => {
                 </button>
               </li>
               <li>
-                <button 
+                <button
                   onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
                   className="text-gray-300 hover:text-white transition-colors hover:translate-x-1 transform duration-300"
                 >
@@ -113,7 +126,7 @@ const Footer = () => {
                   <p className="text-sm text-gray-400">WhatsApp disponível</p>
                 </div>
               </div>
-              
+
               <div className="flex items-start space-x-3">
                 <Mail className="w-5 h-5 text-blue-400 mt-1 flex-shrink-0" />
                 <div>
@@ -121,7 +134,7 @@ const Footer = () => {
                   <p className="text-sm text-gray-400">Resposta em 24h</p>
                 </div>
               </div>
-              
+
               <div className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-blue-400 mt-1 flex-shrink-0" />
                 <div>
@@ -129,7 +142,7 @@ const Footer = () => {
                   <p className="text-gray-300">Igaraçu do Tietê - SP</p>
                 </div>
               </div>
-              
+
               <div className="flex items-start space-x-3">
                 <Clock className="w-5 h-5 text-blue-400 mt-1 flex-shrink-0" />
                 <div>
@@ -147,14 +160,14 @@ const Footer = () => {
             <div className="flex items-center space-x-2 text-gray-400">
               <span>© {currentYear} Guilherme Segura Fisioterapia. Todos os direitos reservados.</span>
             </div>
-            
+
             <div className="flex items-center space-x-2 text-gray-400">
               <span>Feito com</span>
               <Heart className="w-4 h-4 text-red-500 fill-current" />
               <span>para cuidar da sua saúde</span>
             </div>
           </div>
-          
+
           <div className="mt-6 text-center">
             {/*
             <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-400 mb-4">
