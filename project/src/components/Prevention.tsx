@@ -125,7 +125,7 @@ const Prevention = () => {
             
             <div className="relative">
               <img 
-                src="https://images.pexels.com/photos/6111563/pexels-photo-6111563.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                src="/joelhodor.jpg" 
                 alt="Cuidados com o joelho" 
                 className="w-full h-80 object-cover rounded-2xl"
               />

@@ -250,8 +250,8 @@ Aguardo retorno para agendamento. Obrigado!`;
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold text-gray-900">Localização</h4>
-                    <p className="text-gray-600">R. Batista de Carvalho, 12-50 - Centro</p>
-                    <p className="text-gray-600">Bauru - SP, 17015-170</p>
+                    <p className="text-gray-600">R. Francisco Ortega, 236</p>
+                    <p className="text-gray-600">Igaraçu do Tietê - SP, 17350-260</p>
                   </div>
                 </div>
 

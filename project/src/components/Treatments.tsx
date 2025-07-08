@@ -82,7 +82,9 @@ const Treatments = () => {
               
               <div className="mt-6 pt-6 border-t border-gray-200">
           
-                <button className="text-blue-600 hover:text-blue-700 font-medium flex items-center space-x-2 group">
+                <button
+                  onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} 
+                  className="text-blue-600 hover:text-blue-700 font-medium flex items-center space-x-2 group">
                     <span>Saiba mais</span>
                     <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />

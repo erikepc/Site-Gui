@@ -14,7 +14,7 @@ const Location = () => {
             Nossa <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-800">Localização</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Estamos estrategicamente localizados em Bauru-SP para melhor atendê-lo.
+            Estamos estrategicamente localizados em Barra bonita-SP para melhor atendê-lo.
           </p>
         </div>
 
@@ -24,7 +24,7 @@ const Location = () => {
             <div className="bg-white/70 backdrop-blur-lg rounded-3xl shadow-xl overflow-hidden border border-blue-100/30">
               <div className="h-96 relative">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3695.8234567890123!2d-49.0606!3d-22.3147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf67af0f431faf%3A0x4e7ba8c2e5f6a8b9!2sR.%20Batista%20de%20Carvalho%2C%2012-50%20-%20Centro%2C%20Bauru%20-%20SP%2C%2017015-170!5e0!3m2!1spt-BR!2sbr!4v1234567890123!5m2!1spt-BR!2sbr"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1842.8835711698587!2d-48.5614463!3d-22.5129182!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c74f3d5b71e2bd%3A0x733c611ae335d889!2sGuilherme%20Segura!5e0!3m2!1spt-BR!2sbr!4v1751978752957!5m2!1spt-BR!2sbr"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
@@ -40,11 +40,11 @@ const Location = () => {
                 <div className="flex items-center justify-between">
                   <div>
                     <h4 className="font-semibold text-gray-900">Clínica de Fisioterapia</h4>
-                    <p className="text-gray-600">R. Batista de Carvalho, 12-50 - Centro</p>
-                    <p className="text-gray-600">Bauru - SP, 17015-170</p>
+                    <p className="text-gray-600">R. Francisco Ortega, 236</p>
+                    <p className="text-gray-600">Igaraçu do Tietê - SP, 17350-260</p>
                   </div>
                   <a
-                    href="https://maps.app.goo.gl/TtBh1rE9ye8doo1LA"
+                    href="https://maps.app.goo.gl/7pEXL8x9nTEv3oBdA"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center space-x-2 text-blue-600 hover:text-blue-700 font-medium bg-blue-50 px-4 py-2 rounded-lg hover:bg-blue-100 transition-all duration-300"
@@ -69,8 +69,8 @@ const Location = () => {
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold text-gray-900">Endereço Completo</h4>
-                    <p className="text-gray-600">R. Batista de Carvalho, 12-50 - Centro</p>
-                    <p className="text-gray-600">Bauru - SP, CEP: 17015-170</p>
+                    <p className="text-gray-600">R. Francisco Ortega, 236</p>
+                    <p className="text-gray-600">Igaraçu do Tietê - SP, 17350-260</p>
                     <p className="text-sm text-gray-500">Região central, fácil acesso</p>
                   </div>
                 </div>

@@ -125,8 +125,8 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-blue-400 mt-1 flex-shrink-0" />
                 <div>
-                  <p className="text-gray-300">R. Batista de Carvalho, 12-50</p>
-                  <p className="text-gray-300">Centro - Bauru - SP</p>
+                  <p className="text-gray-300">R. Francisco Ortega, 236</p>
+                  <p className="text-gray-300">Igaraçu do Tietê - SP</p>
                 </div>
               </div>
               
@@ -156,11 +156,13 @@ const Footer = () => {
           </div>
           
           <div className="mt-6 text-center">
+            {/*
             <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-400 mb-4">
               <a href="#" className="hover:text-white transition-colors">Política de Privacidade</a>
               <a href="#" className="hover:text-white transition-colors">Termos de Uso</a>
               <a href="#" className="hover:text-white transition-colors">LGPD</a>
               <a href="#" className="hover:text-white transition-colors">Código de Ética</a>
+              
             </div>
             
             {/* Security Notice */}

@@ -34,7 +34,7 @@ const Header = () => {
             <img 
               src="/logo mini.jpg" 
               alt="Guilherme Segura - Fisioterapia Especializada em Joelho" 
-              className="h-20 w-auto transition-transform duration-300 hover:scale-105"
+              className="h-10 w-auto transition-transform duration-300 hover:scale-105"
             />
           </div>
 
