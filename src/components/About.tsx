@@ -94,6 +94,8 @@ const About = () => {
                  <img 
                    src="Gui.jpg" 
                    alt="Guilherme Segura - Fisioterapeuta" 
+  )
+}
 -                  className="w-full h-full object-cover rounded-2xl"
 +                  className="w-full h-64 sm:h-80 lg:h-full object-cover rounded-2xl"
                  />
